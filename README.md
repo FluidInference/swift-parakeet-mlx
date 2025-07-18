@@ -4,6 +4,10 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 [![MLX](https://img.shields.io/badge/MLX-Swift-purple.svg)](https://github.com/ml-explore/mlx-swift)
 
+
+⚠️ The initial performance of the project was okay on Apple devices, but it wasn't able to achieve the performance we wanted. Our team's goal is to run more workloads on the ANE, so MLX doesn't really align with that right now. We have decided to shift focus to trying to get a CoreML version of Parakeet and Flash running instead. Please stay tuned to [FluidAudio](https://github.com/FluidInference/FluidAudio) for updates. This repo will be archived, but folks are welcome to fork and build on top of it, or else please see sentella's original Python implementation linked below!
+
+
 A Swift implementation of the Parakeet speech recognition models using MLX Swift. The code was translated from [senstella/parakeet-mlx](https://github.com/senstella/parakeet-mlx) - all credits go to the original creator. We are merely translating it to Swift so that we can use it to build iOS/macOS apps!
 
 From our experience, this is useful for testing and gaining a baseline understanding of Parakeet models, but in production it is quite resource-intensive. For a more efficient and less power-hungry approach, please take a look at our other open-sourced solution, [FluidAudio](https://github.com/FluidInference/FluidAudioSwift).
